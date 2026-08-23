@@ -19,3 +19,4 @@ data/processed/
 # Power BI local/cache files
 **/.pbi/
 powerbi/**/*.pbix
+powerbi/.pbir_backups/
