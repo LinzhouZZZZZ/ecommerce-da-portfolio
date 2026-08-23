@@ -1,2 +1,4674 @@
 cultureInfo zh-CN
 
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "online_retail_clean": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "online retail clean": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "online_retail_clean": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "online trade clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "online selling clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "online marketing clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "online merchandizing clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "online merchandising clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "online wholesale clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.invoice_no": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "invoice_no"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice no": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice_no": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "invoice number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.stock_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "stock_code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stock code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "stock_code": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "stock id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "stock key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "inventory code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.invoice_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "invoice_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "invoice moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "online_retail_clean.invoice_date.日期层次结构": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "invoice_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "日期层次结构": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.invoice_date.年": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "invoice_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "年"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "年": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date 年": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice moment 年": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "invoice period 年": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.invoice_date.季度": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "invoice_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "季度"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "季度": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date 季度": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice moment 季度": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "invoice period 季度": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.invoice_date.月份": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "invoice_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "月份"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "月份": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date 月份": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice moment 月份": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "invoice period 月份": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.invoice_date.日": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "invoice_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "日"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "日": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date 日": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice moment 日": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "invoice period 日": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.unit_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "unit_price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit_price": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "module price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "element price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "entity price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "group price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "component price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "constituent price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "item price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "part price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "unit value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.customer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "customer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.is_cancelled": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "is_cancelled"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is cancelled": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is_cancelled": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.line_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "line_revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "line revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "line_revenue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "line income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "line profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "line turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "line yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "online_retail_clean.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "online_retail_clean.month.日期层次结构": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "month",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "日期层次结构": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.month.年": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "month",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "年"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "年": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month 年": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth 年": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.month.季度": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "month",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "季度"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "季度": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month 季度": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth 季度": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.month.月份": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "month",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "月份"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "月份": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month 月份": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth 月份": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.month.日": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "month",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "日"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "日": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month 日": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth 日": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.order_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "order_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "order moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "online_retail_clean.order_date.日期层次结构": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "order_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "日期层次结构": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.order_date.年": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "order_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "年"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "年": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date 年": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment 年": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period 年": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.order_date.季度": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "order_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "季度"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "季度": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date 季度": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment 季度": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period 季度": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.order_date.月份": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "order_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "月份"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "月份": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date 月份": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment 月份": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period 月份": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.order_date.日": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "VariationSource": "order_date",
+			          "VariationSet": "变体",
+			          "Hierarchy": "日期层次结构",
+			          "HierarchyLevel": "日"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "日": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date 日": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment 日": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period 日": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.average_order_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Average Order Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average order value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average order assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "order assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average order worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average order price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average order cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average order charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average order rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "order worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "order price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.total_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Total Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "total profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.total_orders": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Total Orders"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total orders": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "orders": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total guideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total preparation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "guideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "preparation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.total_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Total Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customers": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.AOV_card": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "AOV Card"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AOV card": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aov postcard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "aov valentine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "aov pass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.customers_card": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Customers Card"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customers card": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer postcard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "customer valentine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "customer pass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.orders_card": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Orders Card"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "orders card": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order postcard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order valentine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order pass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.revenue_card": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Revenue Card"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue card": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income card": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "profit card": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "turnover card": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "yield card": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "revenue postcard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue valentine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue pass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.revenue_KPI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Revenue KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue KPI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KPI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "income kpi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "profit kpi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "turnover kpi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "yield kpi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Revenue (£M)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.orders_KPI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Orders KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "orders KPI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KPI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Orders (K)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.customers_KPI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Customers KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customers KPI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KPI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Customers (K)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.aov_kpi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "AOV KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aov kpi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AOV (£)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.merchandise_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Merchandise Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "merchandise revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "merchandise income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "merchandise profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "merchandise turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "merchandise yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.revenue_millions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Revenue Millions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.country_revenue_top_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Country Revenue Top 5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "online_retail_clean.product_revenue_top_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "online_retail_clean",
+			          "ConceptualProperty": "Product Revenue Top 5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "online_retail_clean_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.unit_price": {
+			          "Target": {
+			            "Entity": "online_retail_clean.unit_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "online_retail_clean.unit_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unit_price_indicates_how_expensive_online_retail_clean_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.unit_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_unit_prices"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_is_cancelled": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.is_cancelled": {
+			          "Target": {
+			            "Entity": "online_retail_clean.is_cancelled"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "online_retail_clean.is_cancelled"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Adjectives": [
+			              {
+			                "cancelled": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_online_retail_clean_are_cancelled_online_retail_clean"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_is_invoiced_on_invoice_date": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.invoice_date": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "online_retail_clean.invoice_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "invoice": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "online_retail_clean_are_invoiced_on_invoice_dates"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_is_ordered_on_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.order_date": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "online_retail_clean.order_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "order": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "online_retail_clean_are_ordered_on_order_dates"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.country": {
+			          "Target": {
+			            "Entity": "online_retail_clean.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "online_retail_clean.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_are_in_countries"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_invoice_no": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.invoice_no": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_no"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_no"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_invoice_noes"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_stock_code": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.stock_code": {
+			          "Target": {
+			            "Entity": "online_retail_clean.stock_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.stock_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_stock_codes"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.description": {
+			          "Target": {
+			            "Entity": "online_retail_clean.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_descriptions"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.quantity": {
+			          "Target": {
+			            "Entity": "online_retail_clean.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_quantities"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_invoice_date": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.invoice_date": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_invoice_dates"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_customer_id": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.customer_id": {
+			          "Target": {
+			            "Entity": "online_retail_clean.customer_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.customer_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_customer_ids"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.country": {
+			          "Target": {
+			            "Entity": "online_retail_clean.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_countries"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_is_cancelled": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.is_cancelled": {
+			          "Target": {
+			            "Entity": "online_retail_clean.is_cancelled"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.is_cancelled"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_is_cancelled"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_line_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.line_revenue": {
+			          "Target": {
+			            "Entity": "online_retail_clean.line_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.line_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_line_revenues"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.year": {
+			          "Target": {
+			            "Entity": "online_retail_clean.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_years"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.month": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_months"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.order_date": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_order_dates"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_average_order_value": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.average_order_value": {
+			          "Target": {
+			            "Entity": "online_retail_clean.average_order_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.average_order_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_average_order_value"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_total_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.total_revenue": {
+			          "Target": {
+			            "Entity": "online_retail_clean.total_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.total_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_total_revenue"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_total_orders": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.total_orders": {
+			          "Target": {
+			            "Entity": "online_retail_clean.total_orders"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.total_orders"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_total_orders"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_total_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.total_customers": {
+			          "Target": {
+			            "Entity": "online_retail_clean.total_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.total_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_total_customers"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_AOV_card": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.AOV_card": {
+			          "Target": {
+			            "Entity": "online_retail_clean.AOV_card"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.AOV_card"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_AOV_card"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_customers_card": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.customers_card": {
+			          "Target": {
+			            "Entity": "online_retail_clean.customers_card"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.customers_card"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_customers_card"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_orders_card": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.orders_card": {
+			          "Target": {
+			            "Entity": "online_retail_clean.orders_card"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.orders_card"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_orders_card"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_revenue_card": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.revenue_card": {
+			          "Target": {
+			            "Entity": "online_retail_clean.revenue_card"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.revenue_card"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_revenue_card"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_revenue_KPI": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.revenue_KPI": {
+			          "Target": {
+			            "Entity": "online_retail_clean.revenue_KPI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.revenue_KPI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_revenue_KPI"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_orders_KPI": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.orders_KPI": {
+			          "Target": {
+			            "Entity": "online_retail_clean.orders_KPI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.orders_KPI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_orders_KPI"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_customers_KPI": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.customers_KPI": {
+			          "Target": {
+			            "Entity": "online_retail_clean.customers_KPI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.customers_KPI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_customers_KPI"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_aov_kpi": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.aov_kpi": {
+			          "Target": {
+			            "Entity": "online_retail_clean.aov_kpi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.aov_kpi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_aov_kpi"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_has_merchandise_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean": {
+			          "Target": {
+			            "Entity": "online_retail_clean"
+			          }
+			        },
+			        "online_retail_clean.merchandise_revenue": {
+			          "Target": {
+			            "Entity": "online_retail_clean.merchandise_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.merchandise_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "online_retail_clean_have_merchandise_revenue"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_has_日期层次结构": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日期层次结构"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.日期层次结构"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoice_dates_have_日期层次结构"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_日期层次结构_has_online_retail_clean_invoice_date_年": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.年": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.年"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_年"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_日期层次结构_has_online_retail_clean_invoice_date_季度": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.季度"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_季度"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_日期层次结构_has_online_retail_clean_invoice_date_月份": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.月份"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_月份"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_日期层次结构_has_online_retail_clean_invoice_date_日": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.日": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.日"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_日"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_年_has_online_retail_clean_invoice_date_季度": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.年": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.年"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.季度"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.年"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "年_have_季度"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_have_年"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_are_in_年"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_季度_has_online_retail_clean_invoice_date_月份": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.季度"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.月份"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_have_月份"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_have_季度"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_are_in_季度"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_invoice_date_月份_has_online_retail_clean_invoice_date_日": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.invoice_date.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.月份"
+			          }
+			        },
+			        "online_retail_clean.invoice_date.日": {
+			          "Target": {
+			            "Entity": "online_retail_clean.invoice_date.日"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.日"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_have_日"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.日"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日_have_月份"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.invoice_date.日"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.invoice_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日_are_in_月份"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_has_日期层次结构": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month"
+			          }
+			        },
+			        "online_retail_clean.month.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日期层次结构"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.日期层次结构"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "months_have_日期层次结构"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_日期层次结构_has_online_retail_clean_month_年": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.month.年": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.年"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_年1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_日期层次结构_has_online_retail_clean_month_季度": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.month.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.季度"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_季度1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_日期层次结构_has_online_retail_clean_month_月份": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.month.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.月份"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_月份1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_日期层次结构_has_online_retail_clean_month_日": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.month.日": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.日"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_日1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_年_has_online_retail_clean_month_季度": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.年": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.年"
+			          }
+			        },
+			        "online_retail_clean.month.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.季度"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.年"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "年_have_季度1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.季度"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_have_年1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.季度"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.month.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_are_in_年1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_季度_has_online_retail_clean_month_月份": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.季度"
+			          }
+			        },
+			        "online_retail_clean.month.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.月份"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.季度"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_have_月份1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.月份"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_have_季度1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.月份"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.month.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_are_in_季度1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_month_月份_has_online_retail_clean_month_日": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.month.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.月份"
+			          }
+			        },
+			        "online_retail_clean.month.日": {
+			          "Target": {
+			            "Entity": "online_retail_clean.month.日"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.月份"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.日"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_have_日1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.日"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.month.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日_have_月份1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.month.日"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.month.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日_are_in_月份1"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_has_日期层次结构": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date"
+			          }
+			        },
+			        "online_retail_clean.order_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日期层次结构"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.日期层次结构"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_dates_have_日期层次结构"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_日期层次结构_has_online_retail_clean_order_date_年": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.order_date.年": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.年"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_年2"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_日期层次结构_has_online_retail_clean_order_date_季度": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.order_date.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.季度"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_季度2"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_日期层次结构_has_online_retail_clean_order_date_月份": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.order_date.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.月份"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_月份2"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_日期层次结构_has_online_retail_clean_order_date_日": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.日期层次结构": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日期层次结构"
+			          }
+			        },
+			        "online_retail_clean.order_date.日": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.日期层次结构"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.日"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日期层次结构_have_日2"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_年_has_online_retail_clean_order_date_季度": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.年": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.年"
+			          }
+			        },
+			        "online_retail_clean.order_date.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.季度"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.年"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "年_have_季度2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_have_年2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.年"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_are_in_年2"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_季度_has_online_retail_clean_order_date_月份": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.季度": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.季度"
+			          }
+			        },
+			        "online_retail_clean.order_date.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.月份"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "季度_have_月份2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_have_季度2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.季度"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_are_in_季度2"
+			        }
+			      ]
+			    },
+			    "online_retail_clean_order_date_月份_has_online_retail_clean_order_date_日": {
+			      "Binding": {
+			        "ConceptualEntity": "online_retail_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "online_retail_clean.order_date.月份": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.月份"
+			          }
+			        },
+			        "online_retail_clean.order_date.日": {
+			          "Target": {
+			            "Entity": "online_retail_clean.order_date.日"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.日"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "月份_have_日2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.日"
+			            },
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日_have_月份2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "online_retail_clean.order_date.日"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "online_retail_clean.order_date.月份"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "日_are_in_月份2"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -61,6 +61,7 @@ table online_retail_clean
 			
 			        DIVIDE([Total Revenue], 1000000)
 			```
+		formatString: 0.00
 		lineageTag: 470a1fc2-0110-46cf-8451-3e94e0efd226
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
@@ -69,6 +70,7 @@ table online_retail_clean
 			
 			        DIVIDE([Total Orders], 1000)
 			```
+		formatString: 0.00
 		lineageTag: 1d129318-cc1a-4cf4-a832-491a2022b546
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
@@ -77,6 +79,7 @@ table online_retail_clean
 			
 			        DIVIDE([Total Customers], 1000)
 			```
+		formatString: 0.00
 		lineageTag: 3fa31178-90b4-47c4-b09a-3c9bedbd27b5
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
@@ -85,7 +88,75 @@ table online_retail_clean
 			
 			        [Average Order Value]
 			```
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
 		lineageTag: 49fad9dd-861d-447b-8689-b86896cd6315
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Merchandise Revenue' =
+			CALCULATE(
+			    [Total Revenue],
+			    FILTER(
+			        'online_retail_clean',
+			        NOT (
+			            UPPER('online_retail_clean'[stock_code]) IN {
+			                "POST", "DOT", "M", "BANK CHARGES", "C2",
+			                "D", "CRUK", "AMAZONFEE", "S"
+			            }
+			        )
+			        && NOT (
+			            CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "POSTAGE")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "CARRIAGE")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "BANK CHARGES")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "AMAZON FEE")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "MANUAL")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "DISCOUNT")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "DOTCOM POSTAGE")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "CRUK COMMISSION")
+			            || CONTAINSSTRING(UPPER(COALESCE('online_retail_clean'[description], "")), "SAMPLES")
+			        )
+			    )
+			)
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 7a24010c-b742-4001-b2fe-dd2eefec74c3
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure 'Revenue Millions' = DIVIDE([Total Revenue], 1000000)
+		formatString: 0.00
+		lineageTag: 8b9afa8e-9b00-4e4a-9950-7b63d9bcf655
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Country Revenue Top 5' =
+			VAR CurrentRank =
+			    RANKX(
+			        ALL('online_retail_clean'[country]),
+			        CALCULATE([Total Revenue]),
+			        ,
+			        DESC,
+			        DENSE
+			    )
+			RETURN
+			    IF(CurrentRank <= 5, DIVIDE([Total Revenue], 1000000))
+		formatString: 0.00
+		lineageTag: 72826280-908f-40b3-9eb0-51c591d73630
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Product Revenue Top 5' =
+			VAR CurrentRank =
+			    RANKX(
+			        ALL('online_retail_clean'[description]),
+			        CALCULATE([Merchandise Revenue]),
+			        ,
+			        DESC,
+			        DENSE
+			    )
+			RETURN
+			    IF(CurrentRank <= 5, DIVIDE([Merchandise Revenue], 1000))
+		formatString: 0.00
+		lineageTag: e8ff763c-7cca-4295-ad0c-0de0fb94ead1
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
