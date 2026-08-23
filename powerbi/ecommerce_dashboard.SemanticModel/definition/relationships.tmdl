@@ -1,0 +1,15 @@
+relationship 0ccadb40-42a4-4f7c-9058-f7b31b38948e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: online_retail_clean.invoice_date
+	toColumn: LocalDateTable_00effaea-5286-4c83-bbcb-0a60e730a283.Date
+
+relationship 190ee97e-66a6-426c-83a4-dea137bbe46e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: online_retail_clean.month
+	toColumn: LocalDateTable_e74f1c00-d5d7-49e9-88d0-d24adc34f06a.Date
+
+relationship 9526d48d-ebcf-467f-b0f1-ca1fd77d7c6b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: online_retail_clean.order_date
+	toColumn: LocalDateTable_86d85800-e3f6-463f-9ab4-c972b6dee210.Date
+

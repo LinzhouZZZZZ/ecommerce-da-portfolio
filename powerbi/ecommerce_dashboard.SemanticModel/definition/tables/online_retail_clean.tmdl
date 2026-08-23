@@ -1,0 +1,239 @@
+table online_retail_clean
+	lineageTag: 8b18f07a-141c-40d0-989e-7490d551f972
+
+	measure 'Average Order Value' = ```
+			
+			        DIVIDE(
+			            [Total Revenue],
+			            [Total Orders]
+			        )
+			```
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 81c7c0e4-6146-4446-a90a-f5c1e89dc082
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure 'Total Revenue' = SUM('online_retail_clean'[line_revenue])
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 80104857-8972-4777-a572-d9c2240a52d3
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure 'Total Orders' = ```
+			
+			        DISTINCTCOUNT('online_retail_clean'[invoice_no])
+			```
+		formatString: 0
+		lineageTag: b4b88c09-8eef-477a-8227-b0f1343d9c3a
+
+	measure 'Total Customers' = ```
+			
+			        DISTINCTCOUNTNOBLANK('online_retail_clean'[customer_id])
+			```
+		formatString: #,0
+		lineageTag: d5f85e2f-3423-415a-980d-5ec0e1c26e60
+
+	measure 'AOV Card' = ```
+			
+			        "£" & FORMAT([Average Order Value], "0.00")
+			```
+		lineageTag: 6f64681f-9fa1-4d54-abf5-4440fe7717a0
+
+	measure 'Customers Card' = ```
+			
+			        FORMAT([Total Customers] / 1000, "0.00") & "K"
+			```
+		lineageTag: 95b7337b-8951-4695-a458-7c00b78b16ef
+
+	measure 'Orders Card' = ```
+			
+			        FORMAT([Total Orders] / 1000, "0.00") & "K"
+			```
+		lineageTag: 32b7d98d-3fb2-4cf2-86de-4c703e712095
+
+	measure 'Revenue Card' = ```
+			
+			        "£" & FORMAT([Total Revenue] / 1000000, "0.00") & "M"
+			```
+		lineageTag: 7a334ad2-b64d-4d58-a27a-22bb84c0d4f4
+
+	measure 'Revenue KPI' = ```
+			
+			        DIVIDE([Total Revenue], 1000000)
+			```
+		lineageTag: 470a1fc2-0110-46cf-8451-3e94e0efd226
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Orders KPI' = ```
+			
+			        DIVIDE([Total Orders], 1000)
+			```
+		lineageTag: 1d129318-cc1a-4cf4-a832-491a2022b546
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Customers KPI' = ```
+			
+			        DIVIDE([Total Customers], 1000)
+			```
+		lineageTag: 3fa31178-90b4-47c4-b09a-3c9bedbd27b5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'AOV KPI' = ```
+			
+			        [Average Order Value]
+			```
+		lineageTag: 49fad9dd-861d-447b-8689-b86896cd6315
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column invoice_no
+		dataType: string
+		lineageTag: 14d74e94-6325-4c37-9baa-f8ce7ee2fc6c
+		summarizeBy: none
+		sourceColumn: invoice_no
+
+		annotation SummarizationSetBy = Automatic
+
+	column stock_code
+		dataType: string
+		lineageTag: f7621725-6212-4759-9dc4-c14c4af05db9
+		summarizeBy: none
+		sourceColumn: stock_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 53edfb38-bf35-41f2-9df2-d09d55ec9e70
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 6fb29a0b-79b7-40c7-b071-31d662c9e545
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column invoice_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 4c367091-749a-4221-b9ab-9c0ce7e9126a
+		summarizeBy: none
+		sourceColumn: invoice_date
+
+		variation 变体
+			isDefault
+			relationship: 0ccadb40-42a4-4f7c-9058-f7b31b38948e
+			defaultHierarchy: LocalDateTable_00effaea-5286-4c83-bbcb-0a60e730a283.日期层次结构
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price
+		dataType: double
+		lineageTag: 00102b6f-765f-4e44-865f-85335d44e7b1
+		summarizeBy: sum
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column customer_id
+		dataType: string
+		lineageTag: e0af7615-6385-4006-8cfc-2ae72bfd3d74
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 408763b2-da0b-4b16-98ad-ac5b0830e923
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_cancelled
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 4aa0cc64-fa90-4499-9993-02b7f1b5c7b0
+		summarizeBy: none
+		sourceColumn: is_cancelled
+
+		annotation SummarizationSetBy = Automatic
+
+	column line_revenue
+		dataType: double
+		lineageTag: 62106b30-c4e4-47f0-96e2-afaeb603a495
+		summarizeBy: sum
+		sourceColumn: line_revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: f233c53d-3021-4f9f-a316-1f2540b8e7df
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column month
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d3c8eb71-9211-45f7-ba3d-6951e613c8a4
+		summarizeBy: none
+		sourceColumn: month
+
+		variation 变体
+			isDefault
+			relationship: 190ee97e-66a6-426c-83a4-dea137bbe46e
+			defaultHierarchy: LocalDateTable_e74f1c00-d5d7-49e9-88d0-d24adc34f06a.日期层次结构
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column order_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9e4da208-7f2c-447e-b9e0-1b4b9021c05d
+		summarizeBy: none
+		sourceColumn: order_date
+
+		variation 变体
+			isDefault
+			relationship: 9526d48d-ebcf-467f-b0f1-ca1fd77d7c6b
+			defaultHierarchy: LocalDateTable_86d85800-e3f6-463f-9ab4-c972b6dee210.日期层次结构
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition online_retail_clean = m
+		mode: import
+		source =
+				let
+				  源 = Csv.Document(File.Contents("C:\Users\user\Desktop\ecommerce-da-portfolio\data\processed\online_retail_clean.csv"), [Delimiter = ",", Columns = 13, QuoteStyle = QuoteStyle.None]),
+				  已提升标题 = Table.PromoteHeaders(源, [PromoteAllScalars = true]),
+				  已更改列类型 = Table.TransformColumnTypes(已提升标题, {{"invoice_no", Int64.Type}, {"stock_code", type text}, {"description", type text}, {"quantity", Int64.Type}, {"invoice_date", type datetime}, {"unit_price", type number}, {"customer_id", Int64.Type}, {"country", type text}, {"is_cancelled", type logical}, {"line_revenue", type number}, {"year", Int64.Type}, {"month", type date}, {"order_date", type date}}, "zh-Hans"),
+				    更改的类型 = Table.TransformColumnTypes(已更改列类型,{{"customer_id", type text}, {"invoice_no", type text}})
+				in
+				  更改的类型
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = 导航
+

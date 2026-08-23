@@ -1,0 +1,23 @@
+model Model
+	culture: zh-CN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: zh-CN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["online_retail_clean"]
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table online_retail_clean
+ref table DateTableTemplate_e4c45988-cc70-4dbc-9bf0-bc28b1d8d4db
+ref table LocalDateTable_00effaea-5286-4c83-bbcb-0a60e730a283
+ref table LocalDateTable_e74f1c00-d5d7-49e9-88d0-d24adc34f06a
+ref table LocalDateTable_86d85800-e3f6-463f-9ab4-c972b6dee210
+
+ref cultureInfo zh-CN
+

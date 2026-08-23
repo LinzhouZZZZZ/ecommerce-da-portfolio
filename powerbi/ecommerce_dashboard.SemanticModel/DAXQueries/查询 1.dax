@@ -1,0 +1,20 @@
+DEFINE
+    MEASURE 'online_retail_clean'[Revenue KPI] =
+        DIVIDE([Total Revenue], 1000000)
+
+    MEASURE 'online_retail_clean'[Orders KPI] =
+        DIVIDE([Total Orders], 1000)
+
+    MEASURE 'online_retail_clean'[Customers KPI] =
+        DIVIDE([Total Customers], 1000)
+
+    MEASURE 'online_retail_clean'[AOV KPI] =
+        [Average Order Value]
+
+EVALUATE
+ROW(
+    "Revenue", [Revenue KPI],
+    "Orders", [Orders KPI],
+    "Customers", [Customers KPI],
+    "AOV", [AOV KPI]
+)
