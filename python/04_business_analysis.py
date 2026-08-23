@@ -70,13 +70,50 @@ country_revenue = (
     .sort_values("revenue", ascending=False)
 )
 country_revenue["revenue"] = country_revenue["revenue"].round(2)
+country_revenue["revenue_share_pct"] = (
+    country_revenue["revenue"] / total_revenue * 100
+).round(2)
 country_revenue.head(15).to_csv(output_dir / "top_countries.csv", index=False)
 
+uk_revenue = country_revenue.loc[
+    country_revenue["country"].eq("United Kingdom"), "revenue"
+].sum()
+uk_revenue_share = uk_revenue / total_revenue if total_revenue else 0
+
 # -----------------------------
-# 4. Top Products
+# 4. Top Merchandise Products
 # -----------------------------
+# The UCI dataset includes service/adjustment rows such as postage,
+# bank charges and manual adjustments. Exclude these from product rankings
+# so that the ranking reflects merchandise rather than administrative items.
+non_product_stock_codes = {
+    "POST",
+    "DOT",
+    "M",
+    "BANK CHARGES",
+    "C2",
+    "D",
+    "CRUK",
+    "AMAZONFEE",
+    "S",
+}
+non_product_description_pattern = (
+    r"POSTAGE|CARRIAGE|BANK CHARGES|AMAZON FEE|MANUAL|DISCOUNT|"
+    r"DOTCOM POSTAGE|CRUK COMMISSION|SAMPLES"
+)
+
+product_df = df[
+    ~df["stock_code"].astype(str).str.upper().isin(non_product_stock_codes)
+].copy()
+product_df = product_df[
+    ~product_df["description"]
+    .fillna("")
+    .str.upper()
+    .str.contains(non_product_description_pattern, regex=True)
+].copy()
+
 top_products = (
-    df.groupby(["stock_code", "description"], as_index=False)
+    product_df.groupby(["stock_code", "description"], as_index=False)
     .agg(
         units_sold=("quantity", "sum"),
         revenue=("line_revenue", "sum"),
@@ -134,12 +171,14 @@ advanced_metrics = pd.DataFrame(
         "metric": [
             "Repeat Customer Rate",
             "Top 10% Customer Revenue Share",
+            "United Kingdom Revenue Share",
         ],
         "value": [
             round(repeat_customer_rate * 100, 2),
             round(top_10_revenue_share * 100, 2),
+            round(uk_revenue_share * 100, 2),
         ],
-        "unit": ["%", "%"],
+        "unit": ["%", "%", "%"],
     }
 )
 advanced_metrics.to_csv(output_dir / "customer_metrics.csv", index=False)
@@ -153,14 +192,19 @@ print(f"Total Orders: {total_orders:,}")
 print(f"Total Customers: {total_customers:,}")
 print(f"Average Order Value: £{average_order_value:,.2f}")
 
-print("\n=== Customer Metrics ===")
+print("\n=== Customer & Market Metrics ===")
 print(f"Repeat Customer Rate: {repeat_customer_rate:.2%}")
 print(f"Top 10% Customer Revenue Share: {top_10_revenue_share:.2%}")
+print(f"United Kingdom Revenue Share: {uk_revenue_share:.2%}")
 
 print("\n=== Top 5 Countries by Revenue ===")
 print(country_revenue.head(5).to_string(index=False))
 
-print("\n=== Top 5 Products by Revenue ===")
-print(top_products[["description", "units_sold", "revenue"]].head(5).to_string(index=False))
+print("\n=== Top 5 Merchandise Products by Revenue ===")
+print(
+    top_products[["description", "units_sold", "revenue"]]
+    .head(5)
+    .to_string(index=False)
+)
 
 print(f"\nSaved summary outputs to: {output_dir}")
