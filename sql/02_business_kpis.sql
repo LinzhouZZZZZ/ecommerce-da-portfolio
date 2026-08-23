@@ -1,4 +1,7 @@
 -- 02_business_kpis.sql
+-- Core business KPI queries for the cleaned Online Retail dataset
+
+USE ecommerce_da;
 
 -- Total revenue
 SELECT ROUND(SUM(line_revenue), 2) AS total_revenue
@@ -41,7 +44,7 @@ FROM online_retail
 GROUP BY country
 ORDER BY revenue DESC;
 
--- Top 10 products
+-- Top 10 products (raw ranking; advanced script contains merchandise-only ranking)
 SELECT
     stock_code,
     description,
