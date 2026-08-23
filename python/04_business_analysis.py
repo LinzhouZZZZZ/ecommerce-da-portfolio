@@ -12,8 +12,14 @@ if not input_file.exists():
         "Run python/02_clean_data.py first."
     )
 
-# Load cleaned sales data
-df = pd.read_csv(input_file, parse_dates=["invoice_date"])
+# Load cleaned sales data. invoice_no is explicitly treated as text because
+# the source contains both numeric-looking invoice IDs and other string values.
+df = pd.read_csv(
+    input_file,
+    parse_dates=["invoice_date"],
+    dtype={"invoice_no": "string"},
+    low_memory=False,
+)
 
 # -----------------------------
 # 1. Executive KPIs
