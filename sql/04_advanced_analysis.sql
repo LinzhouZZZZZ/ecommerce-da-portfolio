@@ -2,7 +2,7 @@
 -- MySQL 8+
 -- Advanced portfolio queries demonstrating CTEs, CASE, window functions and ranking.
 
-USE ecommerce_analytics;
+USE ecommerce_da;
 
 -- 1. Monthly revenue with month-over-month growth
 WITH monthly AS (
