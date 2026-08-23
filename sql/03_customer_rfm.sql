@@ -1,5 +1,7 @@
 -- 03_customer_rfm.sql
--- MySQL 8+ example
+-- MySQL 8+ RFM customer segmentation
+
+USE ecommerce_da;
 
 WITH customer_metrics AS (
     SELECT
